@@ -1,0 +1,30 @@
+.header {
+  background-color: $gray-light;
+  padding-bottom: 1rem;
+  box-shadow: 10px 10px 10px $gray;
+  border: solid 2px $gray-light;
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 30%;
+  }
+
+  .left-logo {
+    width: 25%;
+    height: 25%;
+    float: left;
+    line-height: 1;
+    vertical-align: middle;
+  }
+
+  .right-logo {
+    width: 25%;
+    height: 25%;
+    float: right;
+    line-height: 1;
+    vertical-align: middle;
+  }
+}
